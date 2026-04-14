@@ -19,12 +19,6 @@ importers:
       isbot:
         specifier: ^5.1.36
         version: 5.1.38
-      prettier:
-        specifier: ^3.8.2
-        version: 3.8.2
-      prettier-plugin-tailwindcss:
-        specifier: ^0.7.2
-        version: 0.7.2(prettier@3.8.2)
       react:
         specifier: ^19.2.4
         version: 19.2.5
@@ -68,6 +62,12 @@ importers:
       globals:
         specifier: ^17.5.0
         version: 17.5.0
+      prettier:
+        specifier: ^3.8.2
+        version: 3.8.2
+      prettier-plugin-tailwindcss:
+        specifier: ^0.7.2
+        version: 0.7.2(prettier@3.8.2)
       tailwindcss:
         specifier: ^4.2.2
         version: 4.2.2
