@@ -1,4 +1,10 @@
 {
   "name": "application-fil-rouge",
-  "private": true
+  "private": true,
+  "scripts": {
+    "format:check": "pnpm -F api run format:check && pnpm -F client run format:check",
+    "format:fix": "pnpm -F api run format:fix && pnpm -F client run format:fix",
+    "lint:check": "pnpm -F api run lint:check && pnpm -F client run lint:check",
+    "lint:fix": "pnpm -F api run lint:fix && pnpm -F client run lint:fix"
+  }
 }
